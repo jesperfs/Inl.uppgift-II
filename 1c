@@ -1,0 +1,6 @@
+Av ovanstående versioner, vilken föredrar du? Ser du någon fördel med att passera adressen till ett objekt i stället för en
+kopia, exempelvis för ett större objekt såsom en sträng?
+
+Ju större datamängder man hanterar desto mer nytta ser jag att man kan ha för pekare. Vid mindre datamängder, säg ett fåtal variabler,
+speciellt om dessa är av formen enstaka tal eller tecken så kan det absolut vara snabbare rent arbetsmässigt att bara kopiera dem
+fram och tillbaka. Men jag skulle nog säga att jag föredrar pekare även där, om inte för något annat än att skapa goda vanor.
